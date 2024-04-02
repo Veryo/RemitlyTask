@@ -14,7 +14,7 @@
 ```
    python -m unittest 
 ```
- #To runn specific tests
+ #To run specific tests
 ```
   python -m unittest test_load_policy_file.py
 ```
