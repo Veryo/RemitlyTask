@@ -1,0 +1,17 @@
+{
+  "PolicyName": "root",
+  "PolicyDocument": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "SpecificAccess",
+        "Effect": "Allow",
+        "Action": [
+          "s3:ListBucket",
+          "s3:GetObject"
+        ],
+        "Resource": "arn:aws:s3:::example_bucket/*"
+      }
+    ]
+  }
+}

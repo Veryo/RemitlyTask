@@ -1,0 +1,24 @@
+{
+  "PolicyName": "root",
+  "PolicyDocument": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "SpecificAccess",
+        "Effect": "Allow",
+        "Action": [
+          "s3:ListBucket"
+        ],
+        "Resource": "arn:aws:s3:::specific_bucket"
+      },
+      {
+        "Sid": "WildcardAccess",
+        "Effect": "Allow",
+        "Action": [
+          "s3:GetObject"
+        ],
+        "Resource": "*"
+      }
+    ]
+  }
+}
