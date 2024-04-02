@@ -1,12 +1,11 @@
+## Main Folder
+The main folder contains the main method to solve the problem. This is where the core logic of the application resides.
 
-# The main folder contains the main method to solve the problem
-
-# Test folder  contains tests to test it and fixtures fodler with the json data
-
-# Running tests
-
+## Test Folder
+The test folder contains tests and a `fixtures` folder with the JSON data used for testing. 
 
 
+## Running Tests
 ```
   cd tests
 ```
