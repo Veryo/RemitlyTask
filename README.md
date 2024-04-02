@@ -7,14 +7,14 @@ The test folder contains tests and a `fixtures` folder with the JSON data used f
 
 ## Running Tests
 ```
-  cd tests
+cd tests
 ```
 #To runn all the tests 
 ```
-   python -m unittest 
+python -m unittest 
 ```
  #To run specific tests
 ```
-  python -m unittest test_load_policy_file.py
+python -m unittest test_load_policy_file.py
 ```
 
