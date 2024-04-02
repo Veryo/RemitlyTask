@@ -10,7 +10,7 @@
 ```
   cd tests
 ```
-    #To runn all the tests 
+#To runn all the tests 
 ```
    python -m unittest 
 ```
